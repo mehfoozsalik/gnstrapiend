@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_promotion_products",
+  "info": {
+    "displayName": "Product",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "products": {
+      "displayName": "products",
+      "type": "component",
+      "repeatable": false,
+      "component": "all.products"
+    }
+  }
+}

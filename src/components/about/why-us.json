@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_about_why_uses",
+  "info": {
+    "displayName": "Why Us",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "whyChooseUs": {
+      "displayName": "whyChooseUs",
+      "type": "component",
+      "repeatable": true,
+      "component": "about.why-choose-us",
+      "max": 3,
+      "min": 3
+    },
+    "title": {
+      "type": "string"
+    },
+    "smallTitle": {
+      "type": "string"
+    }
+  }
+}

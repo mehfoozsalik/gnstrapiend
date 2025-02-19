@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "claim_pages",
+  "info": {
+    "singularName": "claim-page",
+    "pluralName": "claim-pages",
+    "displayName": "claimPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageTitle": {
+      "type": "string"
+    },
+    "pageImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "customText": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultMarkdown"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

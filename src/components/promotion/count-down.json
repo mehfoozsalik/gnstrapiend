@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_promotion_count_downs",
+  "info": {
+    "displayName": "Count Down"
+  },
+  "options": {},
+  "attributes": {
+    "toDate": {
+      "type": "datetime"
+    }
+  }
+}

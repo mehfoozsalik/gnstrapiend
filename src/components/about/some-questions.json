@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_about_some_questions",
+  "info": {
+    "displayName": "Some Questions",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "displayName": "Question",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.question"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_promotion_banners",
+  "info": {
+    "displayName": "Banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "bgHexColor": {
+      "type": "string"
+    },
+    "leftImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "rightImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "promotionalCounter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "promotion.count-down"
+    },
+    "promotionalProducts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "promotion.product",
+      "max": 4,
+      "min": 4
+    }
+  }
+}

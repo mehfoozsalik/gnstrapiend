@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_all_products",
+  "info": {
+    "displayName": "products",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "JustProducts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product"
+    }
+  }
+}

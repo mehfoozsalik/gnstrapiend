@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "herosection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.hero-section"
+    },
+    "promotionalBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "promotion.banner"
+    },
+    "products": {
+      "type": "component",
+      "repeatable": true,
+      "component": "promotion.product",
+      "max": 4,
+      "min": 4
+    },
+    "advertise": {
+      "displayName": "AdsSection",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.ads-section",
+      "max": 3,
+      "min": 3
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}
