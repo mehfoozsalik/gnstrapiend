@@ -19,7 +19,7 @@ module.exports = ({ env }) => {
           cipher: env("DATABASE_SSL_CIPHER", undefined),
           rejectUnauthorized: env.bool(
             "DATABASE_SSL_REJECT_UNAUTHORIZED",
-            true,
+            true
           ),
         },
       },
@@ -30,11 +30,11 @@ module.exports = ({ env }) => {
     },
     postgres: {
       connection: {
-        host: env("DATABASE_HOST", "127.0.0.1"),
+        host: env("DATABASE_HOST", "dpg-curg8rrqf0us73fjoof0-a"),
         port: env.int("DATABASE_PORT", 5432),
-        database: env("DATABASE_NAME", "strapi_db"),
-        user: env("DATABASE_USERNAME", "strapi_user"),
-        password: env("DATABASE_PASSWORD", "Admin123"),
+        database: env("DATABASE_NAME", "gn_store"),
+        user: env("DATABASE_USERNAME", "gilgit_natural"),
+        password: env("DATABASE_PASSWORD", "NZInDLhrjLgQKW4zfqc3tuOkgaHbnOLm"),
         ssl: env.bool("DATABASE_SSL", false) && {
           key: env("DATABASE_SSL_KEY", undefined),
           cert: env("DATABASE_SSL_CERT", undefined),
@@ -43,7 +43,7 @@ module.exports = ({ env }) => {
           cipher: env("DATABASE_SSL_CIPHER", undefined),
           rejectUnauthorized: env.bool(
             "DATABASE_SSL_REJECT_UNAUTHORIZED",
-            true,
+            true
           ),
         },
 
@@ -59,7 +59,7 @@ module.exports = ({ env }) => {
         filename: path.join(
           __dirname,
           "..",
-          env("DATABASE_FILENAME", ".tmp/data.db"),
+          env("DATABASE_FILENAME", ".tmp/data.db")
         ),
       },
       useNullAsDefault: true,
